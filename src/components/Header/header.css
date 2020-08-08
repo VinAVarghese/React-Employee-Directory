@@ -1,7 +1,9 @@
 .jumbotron{
     background-image: url("./images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
     background-size: cover;
+    background-position: 50% 50%;
     color:white;
+    margin: 0px
 }
 
 .filter{

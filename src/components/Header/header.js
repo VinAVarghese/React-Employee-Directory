@@ -2,7 +2,7 @@ import React from 'react'
 import Search from "../Search/search"
 import "./header.css"
 
-export default function Header() {
+export default function Header(props) {
     return (
         <div className="jumbotron">
             <div className="filter">
@@ -10,6 +10,6 @@ export default function Header() {
                 <p className="lead text-center">Great employees do great things!</p>
             </div>
                 <hr className="my-4"/>
-                    <Search /> 
+                    <Search value={props.value} handleInputChange={props.handleInputChange} /> 
         </div>
     )}

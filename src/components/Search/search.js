@@ -16,11 +16,6 @@ function Search(props) {
           id="search"
         />
         <br />
-        <div className="row justify-content-center">
-          <button onClick={props.handleFormSubmit} className="btn btn-primary">
-            Search
-          </button>
-        </div>
       </div>
     </form>
   );
