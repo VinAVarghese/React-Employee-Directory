@@ -1,0 +1,14 @@
+.jumbotron{
+    background-image: url("./images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg");
+    background-size: cover;
+    color:white;
+}
+
+.filter{
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 20px;
+}
+
+hr{
+    background-color: white;
+}
