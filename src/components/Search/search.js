@@ -4,6 +4,7 @@ import "./search.css";
 function Search(props) {
 
   return (
+    <>
     <form className="row justify-content-center">
       <div className="form-group">
         <input
@@ -12,12 +13,12 @@ function Search(props) {
           name="search"
           type="text"
           className="form-control text-center"
-          placeholder="Search For an Employee"
+          placeholder="Filter By First Name"
           id="search"
         />
-        <br />
       </div>
     </form>
+    </>
   );
 }
 

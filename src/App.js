@@ -1,12 +1,8 @@
 import React from "react";
-
 import Directory from "./components/DirectoryContainer/directoryContainer"
 
 function App() {
-  return <> 
-  <Directory />
-  {/* <Directory /> */}
-  </>;
+  return <Directory />
 }
 
 export default App;
